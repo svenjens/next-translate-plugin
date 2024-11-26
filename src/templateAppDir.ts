@@ -99,15 +99,16 @@ function templateRSCPage({
   ${code}
 
   export default async function __Next_Translate_new__${hash}__(props) {
-    const detectedLang = props.params?.lang ?? props.searchParams?.lang
+    const detectedLang = (await props.params?.lang) ?? (await props.searchParams?.lang)
 
     if (detectedLang === 'favicon.ico') return <${pageVariableName} {...props} />
 
-    ${routeType !== '/page'
-      // Related with https://github.com/aralroca/next-translate/issues/1090
-      // Early return to avoid conflicts with /layout or /loading that don't have detectedLang
-      ? `if (globalThis.__NEXT_TRANSLATE__ && !detectedLang) return <${pageVariableName} {...props} />`
-      : ''
+    ${
+      routeType !== '/page'
+        ? // Related with https://github.com/aralroca/next-translate/issues/1090
+          // Early return to avoid conflicts with /layout or /loading that don't have detectedLang
+          `if (globalThis.__NEXT_TRANSLATE__ && !detectedLang) return <${pageVariableName} {...props} />`
+        : ''
     }
   
     const config = { 
@@ -163,11 +164,12 @@ function templateRCCPage({
 
     if (detectedLang === 'favicon.ico') return <${pageVariableName} {...props} />
 
-    ${routeType !== '/page'
-      // Related with https://github.com/aralroca/next-translate/issues/1090
-      // Early return to avoid conflicts with /layout or /loading that don't have detectedLang
-      ? `if (globalThis.__NEXT_TRANSLATE__ && !detectedLang) return <${pageVariableName} {...props} />`
-      : ''
+    ${
+      routeType !== '/page'
+        ? // Related with https://github.com/aralroca/next-translate/issues/1090
+          // Early return to avoid conflicts with /layout or /loading that don't have detectedLang
+          `if (globalThis.__NEXT_TRANSLATE__ && !detectedLang) return <${pageVariableName} {...props} />`
+        : ''
     }
 
     const lang = detectedLang ?? ${INTERNAL_CONFIG_KEY}.defaultLocale
@@ -183,7 +185,9 @@ function templateRCCPage({
         <__Next_Translate__child__${hash}__ 
           {...props} 
           config={config} 
-          promise={__loadNamespaces({ ...config, ${addLoadLocalesFrom(existLocalesFolder)} })}
+          promise={__loadNamespaces({ ...config, ${addLoadLocalesFrom(
+            existLocalesFolder
+          )} })}
          />
       </__Suspense>
     )
