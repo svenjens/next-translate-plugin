@@ -12,8 +12,10 @@ function Error() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Error {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
@@ -66,8 +68,10 @@ function Error() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Error {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
@@ -120,8 +124,10 @@ function Error() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Error {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
@@ -174,8 +180,10 @@ function Error() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Error {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
@@ -228,8 +236,10 @@ function GlobalError() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <GlobalError {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
@@ -282,8 +292,10 @@ function GlobalError() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <GlobalError {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
@@ -336,8 +348,10 @@ function GlobalError() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <GlobalError {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
@@ -390,8 +404,10 @@ function GlobalError() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <GlobalError {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
@@ -444,8 +460,10 @@ function Layout() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Layout {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
@@ -498,8 +516,10 @@ function Layout() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Layout {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
@@ -552,8 +572,10 @@ function Layout() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Layout {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
@@ -606,8 +628,10 @@ function Layout() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Layout {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
@@ -660,8 +684,10 @@ function Loading() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Loading {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
@@ -714,8 +740,10 @@ function Loading() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Loading {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
@@ -768,8 +796,10 @@ function Loading() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Loading {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
@@ -822,8 +852,10 @@ function Loading() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Loading {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
@@ -876,8 +908,10 @@ function NotFound() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <NotFound {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
@@ -930,8 +964,10 @@ function NotFound() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <NotFound {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
@@ -984,8 +1020,10 @@ function NotFound() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <NotFound {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
@@ -1038,8 +1076,10 @@ function NotFound() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <NotFound {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
@@ -1093,8 +1133,10 @@ function Page() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
 
   const config = {
@@ -1145,8 +1187,10 @@ function Page() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
 
   const config = {
@@ -1197,8 +1241,10 @@ function Page() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
 
   const config = {
@@ -1249,8 +1295,10 @@ function Page() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
 
   const config = {
@@ -1301,8 +1349,10 @@ function Page() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
 
   const config = {
@@ -1353,8 +1403,10 @@ function Page() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
 
   const config = {
@@ -1405,8 +1457,10 @@ function Page() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
 
   const config = {
@@ -1457,8 +1511,10 @@ function Page() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
 
   const config = {
@@ -1508,8 +1564,10 @@ function Page() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
 
   const config = {
@@ -1559,8 +1617,10 @@ function Page() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
 
   const config = {
@@ -1610,8 +1670,10 @@ function Page() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
 
   const config = {
@@ -1661,8 +1723,10 @@ function Page() {
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
-  const detectedLang =
-    (await props.params)?.lang ?? (await props.searchParams)?.lang;
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const detectedLang = params?.lang ?? searchParams?.lang;
+
   if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
 
   const config = {
